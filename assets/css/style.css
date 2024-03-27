@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "KMITLGO";
+    src: url("assets/fonts/KMITLGO/KMITLGO Regular.woff") format("woff");
+    src: url("assets/fonts/KMITLGO/KMITLGO Regular.woff2") format("woff2");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+    box-sizing: border-box;
+    font-family: 'KMITLGO', Helvetica, Arial, sans-serif;
+}
+
+html, body{
+    height: 100%;
+	position: relative;
+}
+
+body {
+    /* min-height: 100vh; */
+    /* background: linear-gradient(#FFFFFF, #ffe6a5); */
+    background: #FFFFFF;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+}
+
+header .logo {
+    color: #359381;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #359381;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header ul li a:hover, header ul li a.active {
+    background: #359381;
+    color: #FFFFFF;
+}
+
+.section-header {
+    background: #f9fbfd;
+    padding: 50px 0 100px;
+    text-align: center;
+}
+
+.contact {
+    background: #f9fbfd;
+    padding: 50px 0 100px;
+    text-align: center;
+}
+
+.text-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #FFFFFF;
+    color: #359381;
+}
+
+.footer-copyright {
+    color: #888ea5;
+    text-transform: capitalize;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-copyright p a {
+    color: #888ea5;
+}
