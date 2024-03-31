@@ -7,10 +7,10 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-o-box-sizing:border-box;
-	-ms-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'KMITLGO', Helvetica, Arial, sans-serif;
 }
@@ -22,27 +22,34 @@ html, body{
 
 body {
     /* min-height: 100vh; */
-    /* background: linear-gradient(#FFFFFF, #ffe6a5); */
-    background: #FFFFFF;
+    /* background: linear-gradient(#359381, #f9fbfd); */
+    /* background: #f9fbfd; */
+    background: -moz-linear-gradient(90deg, #f9fbfd 0%, #359381 100%);
+    background: -webkit-linear-gradient(90deg, #f9fbfd 0%, #359381 100%);
+    background: -ms-linear-gradient(90deg, #f9fbfd 0%, #359381 100%);
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-attachment: fixed;
     overflow-x: hidden;
-    font-size: 20px !important;
+    font-size: 26px !important;
 }
 
 header {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    /* padding: 30px 100px; */
     display: flex;
     justify-content: space-around;
-    align-items: center;
     position: relative;
     z-index: 9999;
 }
 
-header .logo {
-    color: #359381;
+nav.navbar a.navbar-brand {
+    color: #f9fbfd;
     font-weight: 900;
     text-decoration: none;
     font-size: 5em;
@@ -50,54 +57,261 @@ header .logo {
     letter-spacing: 2px;
 }
 
-header ul {
+nav.navbar ul.navbar-nav {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header ul li {
-    list-style: none;
+nav.navbar ul.navbar-nav > li {
+    /* list-style: none; */
     margin-left: 20px;
 }
 
-header ul li a {
+nav.navbar ul.navbar-nav > li > a {
     text-decoration: none;
     padding: 10px 15px;
-    color: #359381;
+    color: #f9fbfd;
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 700;
 }
 
-header ul li a:hover, header ul li a.active {
-    background: #359381;
-    color: #FFFFFF;
+nav.navbar ul.navbar-nav > li > a:hover {
+    background: #f9fbfd;
+    color: #359381;
 }
+
+nav.navbar .navbar-toggler {
+    position: relative;
+    background-color: transparent;
+    border: 1px solid #f9fbfd;
+    padding: 10px;
+    top: 0;
+}
+
+nav.navbar .navbar-toggler:hover{
+    border: 3px solid #f9fbfd;
+}
+
+nav.navbar .navbar-toggler i {
+    color: #f9fbfd;
+}
+
+p { font-size: 26px; color: #636a82; }
+
+li { list-style: none; }
+
+h2 { font-size: 36px !important; color: #636a82 !important; }
+h3 { font-size: 34px !important; color: #636a82 !important; }
+h4 { font-size: 32px !important; color: #636a82 !important; }
+h5 { font-size: 30px !important; color: #636a82 !important; }
+h6 { font-size: 28px !important; color: #636a82 !important; }
 
 .section {
     background: #f9fbfd;
-    padding: 50px 0 100px;
+    /* padding: 50px 0px 100px; */
+    /* padding: 50px 0px; */
 }
 
 .text-header h2 {
-    font-size: 30px;
+    /* font-size: 35px; */
     font-weight: 600;
     text-transform: uppercase;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #FFFFFF;
+    padding: 30px 0px 50px 0px;
+    /* border-bottom: 1px solid #f9fbfd; */
     color: #359381;
     text-align: center;
+    background: #f9fbfd;
+}
+
+/* @media (min-width: 1200px) {
+    .container {
+      max-width: 1170px; } }
+  
+@media (min-width: 1620px) {
+    .box_1620 {
+        max-width: 1620px;
+        margin: auto;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px; 
+    } 
+} */
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* =========================== Home =========================== */
+
+.img-profile {
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.home-banner-area {
+    position: relative;
+    z-index: 1;
+    min-height: 350px;
+    /* background-image: -moz-linear-gradient(90deg, #f9fbfd 0%, #359381 100%);
+    background-image: -webkit-linear-gradient(90deg, #f9fbfd 0%, #359381 100%);
+    background-image: -ms-linear-gradient(90deg, #f9fbfd 0%, #359381 100%); */
+    /* margin-bottom: 200px; */
+    background: transparent;
+}
+
+.home-banner-area .box-1620 {
+    background: #f9fbfd;
+    min-height: 700px;
+    border-radius: 30px 30px 0px 0px;
+    position: relative;
+    /* bottom: -200px; */
+    padding: 30px;
+    box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+}
+
+.home-banner-area .banner-inner {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+}
+
+.home-banner-area .banner-inner .banner-content {
+    color: #222222;
+    vertical-align: middle;
+    align-self: center;
+    text-align: left;
+}
+
+.basic-info ul li {
+    margin-bottom: 20px;
+    /* list-style: none; */
+}
+
+.basic-info ul li p {
+    position: relative;
+    padding-left: 40px;
+    color: #636a82;
+}
+
+.basic-info ul li p i {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #636a82;
+}
+
+.download-resume a {
+    width: 200px !important;
+    height: 60px !important;
+    line-height: 60px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    color: #f9fbfd;
+    background: #359381;
+    border:1px solid #359381;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    -webkit-transition: 0.3s linear; 
+    -moz-transition: 0.3s linear; 
+    -ms-transition: 0.3s linear; 
+    -o-transition: 0.3s linear; 
+    transition: 0.3s linear;
+    text-decoration: none;
+    text-align: center;
+}
+.download-resume a:hover { 
+    box-shadow: 0 5px 20px rgba(0,0,0,.4);
+    background:#307367;
+    border: 1px solid #307367;
+}
+
+
+/* =========================== Home =========================== */
+
+.banner-area {
+    position: relative;
+    z-index: 1;
+    min-height: 350px;
+    /* background-image: -moz-linear-gradient(90deg, #f9fbfd 0%, #359381 100%);
+    background-image: -webkit-linear-gradient(90deg, #f9fbfd 0%, #359381 100%);
+    background-image: -ms-linear-gradient(90deg, #f9fbfd 0%, #359381 100%); */
+    /* margin-bottom: 200px; */
+    background: transparent;
+}
+
+.banner-area .box-1620 {
+    background: #f9fbfd;
+    min-height: 700px;
+    position: relative;
+    /* bottom: -200px; */
+    padding: 30px;
+    box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+}
+
+.banner-area .banner-inner {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+}
+
+.banner-area .banner-inner .banner-content {
+    color: #222222;
+    vertical-align: middle;
+    align-self: center;
+    text-align: left;
+}
+
+
+/* =========================== Contact =========================== */
+.last-banner-area {
+    position: relative;
+    z-index: 1;
+    min-height: 350px;
+    /* background-image: -moz-linear-gradient(90deg, #f9fbfd 0%, #359381 100%);
+    background-image: -webkit-linear-gradient(90deg, #f9fbfd 0%, #359381 100%);
+    background-image: -ms-linear-gradient(90deg, #f9fbfd 0%, #359381 100%); */
+    /* margin-bottom: 200px; */
+    background: transparent;
+}
+
+.last-banner-area .box-1620 {
+    background: #f9fbfd;
+    min-height: 700px;
+    border-radius: 0px 0px 30px 30px;
+    position: relative;
+    /* bottom: -200px; */
+    padding: 30px;
+    box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+}
+
+.last-banner-area .banner-inner {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+}
+
+.last-banner-area .banner-inner .banner-content {
+    color: #222222;
+    vertical-align: middle;
+    align-self: center;
+    text-align: left;
 }
 
 .contact-content {
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .contact-info ul li {
     margin-bottom: 20px;
-    list-style: none;
+    /* list-style: none; */
 }
 
 .contact-info ul li p {
@@ -127,7 +341,7 @@ header ul li a:hover, header ul li a.active {
 
 .contact-social ul li{
     float: left;
-    list-style: none;
+    /* list-style: none; */
 }
 
 .contact-social ul li > a:hover{
@@ -148,6 +362,8 @@ header ul li a:hover, header ul li a.active {
     height: 300px;
 }
 
+/* =========================== Contact =========================== */
+
 .footer-copyright {
     color: #888ea5;
     text-transform: capitalize;
@@ -155,6 +371,10 @@ header ul li a:hover, header ul li a.active {
     text-align: left;
 }
 
-.footer-copyright p a {
-    color: #888ea5;
+.footer-copyright p {
+    margin-bottom: 0;
 }
+
+/* .footer-copyright p a {
+    color: #888ea5;
+} */
