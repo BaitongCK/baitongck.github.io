@@ -869,6 +869,22 @@ h6 { font-size: 28px !important; color: var(--fontColor) !important; }
     animation-name: ifade;
     animation-duration: 1.5s;
   }
+
+  .content-info {
+    margin: 20px 0px;
+    text-align: justify;
+  }
+
+  .content-info ul li {
+    margin-bottom: 0px;
+    list-style: circle;
+  }
+
+  .content-info ul li p {
+    position: relative;
+    padding-left: 10px;
+    color: var(--fontColor);
+  }
 }
 
 @keyframes ifade {
