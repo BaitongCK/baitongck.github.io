@@ -6,19 +6,19 @@ const portfolios = [
         projects: [
             {
                 pid: 1, 
-                img: 'assets/img/piesoft-account/pa.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa.png', 
                 alt: 'piesoft-account', 
                 modal: '#accountModal'
             }, 
             {
                 pid: 2, 
-                img: 'assets/img/internal-audit/ia.png', 
+                img: 'assets/img/piesoft/internal-audit/ia.png', 
                 alt: 'internal-audit', 
                 modal: '#auditModal'
             }, 
             {
                 pid: 3, 
-                img: 'assets/img/linkage/linkage.png', 
+                img: 'assets/img/piesoft/linkage/linkage.png', 
                 alt: 'linkage', 
                 modal: '#linkageModal'
             }, 
@@ -30,49 +30,49 @@ const portfolios = [
             }, 
             {
                 pid: 5, 
-                img: 'assets/img/soc/soc.png', 
+                img: 'assets/img/piesoft/soc/soc.png', 
                 alt: 'soc', 
                 modal: '#socModal'
             }, 
             {
                 pid: 6, 
-                img: 'assets/img/pwa-gis/pwagis.png', 
+                img: 'assets/img/piesoft/pwa-gis/pwagis.png', 
                 alt: 'pwa-gis', 
                 modal: '#pwagisModal'
             }, 
             {
                 pid: 7, 
-                img: 'assets/img/pwa-quality/pwaquality.png', 
+                img: 'assets/img/piesoft/pwa-quality/pwaquality.png', 
                 alt: 'pwa-quality', 
                 modal: '#pwaqualityModal'
             }, 
             {
                 pid: 8, 
-                img: 'assets/img/ebudget/ebudget.png', 
+                img: 'assets/img/piesoft/ebudget/ebudget.png', 
                 alt: 'ebudget', 
                 modal: '#ebudgetModal'
             }, 
             {
                 pid: 9, 
-                img: 'assets/img/nsf/nsf.png', 
+                img: 'assets/img/piesoft/nsf/nsf.png', 
                 alt: 'nsf', 
                 modal: '#nsfModal'
             }, 
             {
                 pid: 10, 
-                img: 'assets/img/doa-hr/doa-hr.png', 
+                img: 'assets/img/piesoft/doa-hr/doa-hr.png', 
                 alt: 'doa-hr', 
                 modal: '#doahrModal'
             }, 
             {
                 pid: 11, 
-                img: 'assets/img/pangchang/pangchang.png', 
+                img: 'assets/img/piesoft/pangchang/pangchang.png', 
                 alt: 'pangchang', 
                 modal: '#pangchangModal'
             }, 
             {
                 pid: 12, 
-                img: 'assets/img/alro/alro.png', 
+                img: 'assets/img/piesoft/alro/alro.png', 
                 alt: 'alro', 
                 modal: '#alroModal'
             }, 

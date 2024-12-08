@@ -6,31 +6,31 @@ const projects = [
         img: [
             {
                 num: 1, 
-                img: 'assets/img/alro/alro.png', 
+                img: 'assets/img/piesoft/alro/alro.png', 
             }, 
             {
                 num: 2, 
-                img: 'assets/img/alro/alro-homepage.png', 
+                img: 'assets/img/piesoft/alro/alro-homepage.png', 
             }, 
             {
                 num: 3, 
-                img: 'assets/img/alro/alro-news.png', 
+                img: 'assets/img/piesoft/alro/alro-news.png', 
             }, 
             {
                 num: 4, 
-                img: 'assets/img/alro/alro-managenews.png', 
+                img: 'assets/img/piesoft/alro/alro-managenews.png', 
             }, 
             {
                 num: 5, 
-                img: 'assets/img/alro/alro-addnews.png', 
+                img: 'assets/img/piesoft/alro/alro-addnews.png', 
             }, 
             {
                 num: 6, 
-                img: 'assets/img/alro/alro-dashboard.png', 
+                img: 'assets/img/piesoft/alro/alro-dashboard.png', 
             }, 
             {
                 num: 7, 
-                img: 'assets/img/alro/alro-report6.png', 
+                img: 'assets/img/piesoft/alro/alro-report6.png', 
             },
         ], 
         responsibilities: [
@@ -54,15 +54,15 @@ const projects = [
         img: [
             {
                 num: 1, 
-                img: 'assets/img/pangchang/pangchang.png', 
+                img: 'assets/img/piesoft/pangchang/pangchang.png', 
             }, 
             {
                 num: 2, 
-                img: 'assets/img/pangchang/pangchang-listelephanthouse.png', 
+                img: 'assets/img/piesoft/pangchang/pangchang-listelephanthouse.png', 
             }, 
             {
                 num: 3, 
-                img: 'assets/img/pangchang/pangchang-listelephanthouse2.png', 
+                img: 'assets/img/piesoft/pangchang/pangchang-listelephanthouse2.png', 
             }, 
         ], 
         responsibilities: [
@@ -86,39 +86,39 @@ const projects = [
         img: [
             {
                 num: 1, 
-                img: 'assets/img/doa-hr/doa-hr.png', 
+                img: 'assets/img/piesoft/doa-hr/doa-hr.png', 
             }, 
             {
                 num: 2, 
-                img: 'assets/img/doa-hr/welfare2.png', 
+                img: 'assets/img/piesoft/doa-hr/welfare2.png', 
             }, 
             {
                 num: 3, 
-                img: 'assets/img/doa-hr/welfare-add.png', 
+                img: 'assets/img/piesoft/doa-hr/welfare-add.png', 
             }, 
             {
                 num: 4, 
-                img: 'assets/img/doa-hr/welfare-report.png', 
+                img: 'assets/img/piesoft/doa-hr/welfare-report.png', 
             }, 
             {
                 num: 5, 
-                img: 'assets/img/doa-hr/welfare-summary.png', 
+                img: 'assets/img/piesoft/doa-hr/welfare-summary.png', 
             }, 
             {
                 num: 6, 
-                img: 'assets/img/doa-hr/welfare-setting.png', 
+                img: 'assets/img/piesoft/doa-hr/welfare-setting.png', 
             }, 
             {
                 num: 7, 
-                img: 'assets/img/doa-hr/decoration2.png', 
+                img: 'assets/img/piesoft/doa-hr/decoration2.png', 
             },
             {
                 num: 8, 
-                img: 'assets/img/doa-hr/decoration-add.png', 
+                img: 'assets/img/piesoft/doa-hr/decoration-add.png', 
             },
             {
                 num: 9, 
-                img: 'assets/img/doa-hr/decoration-summary.png', 
+                img: 'assets/img/piesoft/doa-hr/decoration-summary.png', 
             },
         ], 
         responsibilities: [
@@ -141,7 +141,7 @@ const projects = [
         img: [
             {
                 num: 1, 
-                img: 'assets/img/nsf/nsf.png', 
+                img: 'assets/img/piesoft/nsf/nsf.png', 
             }, 
         ], 
         responsibilities: [
@@ -162,7 +162,7 @@ const projects = [
         img: [
             {
                 num: 1, 
-                img: 'assets/img/ebudget/ebudget.png"', 
+                img: 'assets/img/piesoft/ebudget/ebudget.png"', 
             }, 
         ], 
         responsibilities: [
@@ -183,19 +183,19 @@ const projects = [
         img: [
             {
                 num: 1, 
-                img: 'assets/img/pwa-quality/pwaquality.png', 
+                img: 'assets/img/piesoft/pwa-quality/pwaquality.png', 
             }, 
             {
                 num: 2, 
-                img: 'assets/img/pwa-quality/pwaquality-login.png', 
+                img: 'assets/img/piesoft/pwa-quality/pwaquality-login.png', 
             }, 
             {
                 num: 3, 
-                img: 'assets/img/pwa-quality/pwaquality-homepage.png', 
+                img: 'assets/img/piesoft/pwa-quality/pwaquality-homepage.png', 
             }, 
             {
                 num: 4, 
-                img: 'assets/img/pwa-quality/pwaquality-usermange2.png', 
+                img: 'assets/img/piesoft/pwa-quality/pwaquality-usermange2.png', 
             }, 
         ], 
         responsibilities: [
@@ -218,19 +218,19 @@ const projects = [
         img: [
             {
                 num: 1, 
-                img: 'assets/img/pwa-gis/pwagis.png', 
+                img: 'assets/img/piesoft/pwa-gis/pwagis.png', 
             }, 
             {
                 num: 2, 
-                img: 'assets/img/pwa-gis/pwagis-login.png', 
+                img: 'assets/img/piesoft/pwa-gis/pwagis-login.png', 
             }, 
             {
                 num: 3, 
-                img: 'assets/img/pwa-gis/pwagis-listvillage.png', 
+                img: 'assets/img/piesoft/pwa-gis/pwagis-listvillage.png', 
             }, 
             {
                 num: 4, 
-                img: 'assets/img/pwa-gis/pwagis-usermange2.png', 
+                img: 'assets/img/piesoft/pwa-gis/pwagis-usermange2.png', 
             }, 
         ], 
         responsibilities: [
@@ -253,11 +253,11 @@ const projects = [
         img: [
             {
                 num: 1, 
-                img: 'assets/img/soc/soc.png', 
+                img: 'assets/img/piesoft/soc/soc.png', 
             }, 
             {
                 num: 2, 
-                img: 'assets/img/soc/soc-firstpage.png', 
+                img: 'assets/img/piesoft/soc/soc-firstpage.png', 
             }, 
         ], 
         responsibilities: [
@@ -303,23 +303,23 @@ const projects = [
         img: [
             {
                 num: 1, 
-                img: 'assets/img/linkage/linkage.png', 
+                img: 'assets/img/piesoft/linkage/linkage.png', 
             }, 
             {
                 num: 2, 
-                img: 'assets/img/linkage/linkage-petition.png', 
+                img: 'assets/img/piesoft/linkage/linkage-petition.png', 
             }, 
             {
                 num: 3, 
-                img: 'assets/img/linkage/linkage-petition-add.png', 
+                img: 'assets/img/piesoft/linkage/linkage-petition-add.png', 
             }, 
             {
                 num: 4, 
-                img: 'assets/img/linkage/linkage-petition-detail.png', 
+                img: 'assets/img/piesoft/linkage/linkage-petition-detail.png', 
             }, 
             {
                 num: 5, 
-                img: 'assets/img/linkage/linkage-report.png', 
+                img: 'assets/img/piesoft/linkage/linkage-report.png', 
             }, 
         ], 
         responsibilities: [
@@ -341,35 +341,35 @@ const projects = [
         img: [
             {
                 num: 1, 
-                img: 'assets/img/internal-audit/ia.png', 
+                img: 'assets/img/piesoft/internal-audit/ia.png', 
             }, 
             {
                 num: 2, 
-                img: 'assets/img/internal-audit/ia-homepage.png', 
+                img: 'assets/img/piesoft/internal-audit/ia-homepage.png', 
             }, 
             {
                 num: 3, 
-                img: 'assets/img/internal-audit/ia-riskcriterion-report.png', 
+                img: 'assets/img/piesoft/internal-audit/ia-riskcriterion-report.png', 
             }, 
             {
                 num: 4, 
-                img: 'assets/img/internal-audit/ia-riskassess-report.png', 
+                img: 'assets/img/piesoft/internal-audit/ia-riskassess-report.png', 
             }, 
             {
                 num: 5, 
-                img: 'assets/img/internal-audit/ia-auditassess-report.png', 
+                img: 'assets/img/piesoft/internal-audit/ia-auditassess-report.png', 
             }, 
             {
                 num: 6, 
-                img: 'assets/img/internal-audit/ia-deptsatisfaction-report.png', 
+                img: 'assets/img/piesoft/internal-audit/ia-deptsatisfaction-report.png', 
             }, 
             {
                 num: 7, 
-                img: 'assets/img/internal-audit/ia-selfassess-report.png', 
+                img: 'assets/img/piesoft/internal-audit/ia-selfassess-report.png', 
             },
             {
                 num: 8, 
-                img: 'assets/img/internal-audit/ia-workpapermaster-report.png', 
+                img: 'assets/img/piesoft/internal-audit/ia-workpapermaster-report.png', 
             },
         ], 
         responsibilities: [
@@ -391,51 +391,51 @@ const projects = [
         img: [
             {
                 num: 1, 
-                img: 'assets/img/piesoft-account/pa.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa.png', 
             }, 
             {
                 num: 2, 
-                img: 'assets/img/piesoft-account/pa-expense-add.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa-expense-add.png', 
             }, 
             {
                 num: 3, 
-                img: 'assets/img/piesoft-account/pa-expense-detail.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa-expense-detail.png', 
             }, 
             {
                 num: 4, 
-                img: 'assets/img/piesoft-account/pa-login.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa-login.png', 
             }, 
             {
                 num: 5, 
-                img: 'assets/img/piesoft-account/pa-admin-expense.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa-admin-expense.png', 
             }, 
             {
                 num: 6, 
-                img: 'assets/img/piesoft-account/pa-admin-expense-update.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa-admin-expense-update.png', 
             }, 
             {
                 num: 7, 
-                img: 'assets/img/piesoft-account/pa-admin-expense-detail.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa-admin-expense-detail.png', 
             }, 
             {
                 num: 8, 
-                img: 'assets/img/piesoft-account/pa-admin-income.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa-admin-income.png', 
             }, 
             {
                 num: 9, 
-                img: 'assets/img/piesoft-account/pa-admin-income-add.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa-admin-income-add.png', 
             }, 
             {
                 num: 10, 
-                img: 'assets/img/piesoft-account/pa-admin-project-add.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa-admin-project-add.png', 
             }, 
             {
                 num: 11, 
-                img: 'assets/img/piesoft-account/pa-admin-project-update.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa-admin-project-update.png', 
             }, 
             {
                 num: 12, 
-                img: 'assets/img/piesoft-account/pa-admin-summary.png', 
+                img: 'assets/img/piesoft/piesoft-account/pa-admin-summary.png', 
             },
         ], 
         responsibilities: [
