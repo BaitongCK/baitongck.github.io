@@ -21,8 +21,8 @@ html, body{
 }
 
 body {
-    --pbgColor: #DB1818;    /* Primary Bachgroud Color */
-    --sbgColor: #020C39;    /* Secondary Bachgroud Color */
+    --pbgColor: #020C39;    /* Primary Bachgroud Color */
+    --sbgColor: #DB1818;    /* Secondary Bachgroud Color */
     --nbgColor: #F9FBFD;    /* Nav Bachgroud Color */
     --cbgColor: #F9F9F9;    /* Card Bachgroud Color */
     --lbgColor: #DCDCDC;    /* Line Bachgroud Color */
@@ -40,8 +40,8 @@ body {
     /* background: -moz-linear-gradient(90deg, #F9FBFD 0%, #359381 100%);
     background: -webkit-linear-gradient(90deg, #F9FBFD 0%, #359381 100%);
     background: -ms-linear-gradient(90deg, #F9FBFD 0%, #359381 100%); */
-    background: -moz-linear-gradient(90deg, var(--sbgColor) 0%, var(--pbgColor) 100%);
-    background: -webkit-linear-gradient(90deg, var(--sbgColor) 0%, var(--pbgColor) 100%);
+    background: -moz-linear-gradient(90deg, var(--sbgColor) 0%, var(--pbgColor) 50%);
+    background: -webkit-linear-gradient(90deg, var(--sbgColor) 0%, var(--pbgColor) 50%);
     /* background: -ms-linear-gradient(90deg, var(--sbgColor) 0%, var(--pbgColor) 100%); */
     /* -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -646,6 +646,25 @@ ul li .descr::before {
 	/* padding: 0; */
 	position: relative;
 	overflow: hidden;
+}
+
+#portfolio .folio-title {
+  --titleH: 3rem;
+  height: var(--titleH);
+  margin-inline: calc(var(--inlineP) * -1);
+
+  text-align: center;
+  background-color: var(--accent-color);
+
+  font-size: 1.75rem;
+  font-weight: 700;
+
+  display: grid;
+  place-content: center;
+  position: relative;
+
+  /* border-radius: calc(var(--titleH) / 2) 0 0 calc(var(--titleH) / 2); */
+  h3 { color: var(--nbgColor) !important; }
 }
 
 #portfolio .folio-item img {
