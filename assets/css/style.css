@@ -648,23 +648,47 @@ ul li .descr::before {
 	overflow: hidden;
 }
 
+/* #portfolio .folio-title {
+	color: var(--fontColor);
+	
+	padding: 0 3rem;
+	margin-bottom: 0;
+} */
+
 #portfolio .folio-title {
   --titleH: 3rem;
+  width: calc(var(--titleH) * 10); /* ลดความกว้างของธง */
   height: var(--titleH);
   margin-inline: calc(var(--inlineP) * -1);
 
-  text-align: center;
+  text-align: left;
   background-color: var(--accent-color);
 
   font-size: 1.75rem;
   font-weight: 700;
 
-  display: grid;
+  /* display: grid; */
   place-content: center;
   position: relative;
 
-  /* border-radius: calc(var(--titleH) / 2) 0 0 calc(var(--titleH) / 2); */
+  border-radius: calc(var(--titleH) / 2) 0 0 calc(var(--titleH) / 2);
+
+  margin-bottom: var(--titleH);
+
   h3 { color: var(--nbgColor) !important; }
+}
+
+/* folio-title flap */
+#portfolio .folio-title::before {
+  content: "";
+  width: calc(var(--titleH) / 1.5); /* ลดความกว้างของธง */
+  height: calc(var(--titleH) / 2); /* ลดความสูงของธง */
+  background: var(--accent-color);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
+  position: absolute;
+  top: 100%;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  right: 0;
 }
 
 #portfolio .folio-item img {
@@ -714,13 +738,6 @@ ul li .descr::before {
 	transition: all 0.5s ease-in-out;
 	position: relative;
 	left: -100%;
-}
-
-#portfolio .folio-title {
-	color: var(--fontColor);
-	/* font-size: 3.3rem; */
-	padding: 0 3rem;
-	margin-bottom: 0;
 }
 
 #portfolio .folio-types {
