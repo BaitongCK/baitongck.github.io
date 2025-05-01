@@ -76,19 +76,57 @@ const portfolios = [
                 alt: 'alro', 
                 modal: '#alroModal'
             }, 
+            {
+                pid: 17, 
+                img: 'assets/img/piesoft/thai-flight/thai-flight.png', 
+                alt: 'thai-flight', 
+                modal: '#thaiflightModal'
+            }, 
         ] 
     }, 
     {
         cid: 2, 
         company: 'UOB Kay Kian', 
         color: '#fd4287', 
-        projects: [] 
+        projects: [
+            {
+                pid: 13, 
+                img: 'assets/img/uobkayhian/web-trading.png', 
+                alt: 'web-trading', 
+                modal: '#webtradingModal'
+            }, 
+            {
+                pid: 14, 
+                img: 'assets/img/uobkayhian/ro.png', 
+                alt: 'ro', 
+                modal: '#roModal'
+            }, 
+            {
+                pid: 15, 
+                img: 'assets/img/uobkayhian/tender.png', 
+                alt: 'tender', 
+                modal: '#tenderModal'
+            }, 
+            {
+                pid: 16, 
+                img: 'assets/img/uobkayhian/smart-sales.png', 
+                alt: 'smart-sales', 
+                modal: '#smartsalesModal'
+            }, 
+        ] 
     }, 
     {
         cid: 3, 
         company: 'Dentsu Soken Thailand', 
         color: '#ef99b4', 
-        projects: [] 
+        projects: [
+            {
+                pid: 18, 
+                img: 'assets/img/uobkayhian/smart-sales.png', 
+                alt: 'ips-service', 
+                modal: '#ipsModal'
+            }, 
+        ] 
     }, 
     // {
     //     id: 13, 

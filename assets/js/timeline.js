@@ -29,7 +29,7 @@ const jobs = [
     {
         id: 4, 
         color: '#faaaa7', 
-        date: 'Feb 2024 - Aug 2024', 
+        date: 'Feb 2024 - Present', 
         position: 'Freelance', 
         company: 'Piesoft Co., Ltd.', 
         site: '', 

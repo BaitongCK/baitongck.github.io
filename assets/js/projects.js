@@ -1,5 +1,157 @@
 const projects = [
     {
+        pid: 18, 
+        modalid: 'ipsModal', 
+        title: 'IPS Service', 
+        img: [
+            {
+                num: 1, 
+                img: 'assets/img/uobkayhian/web-trading.png', 
+            }, 
+        ], 
+        responsibilities: [
+            'Develop web application and it can work correctly.', 
+            'Testing and maintenance responsibility project application.', 
+        ], 
+        databases: [
+            'Oracle'
+        ], 
+        tools: [
+            'Visual Studio', 
+            'Oracle', 
+        ], 
+    },
+    {
+        pid: 17, 
+        modalid: 'thaiflightModal', 
+        title: 'Thai Flight Info', 
+        img: [
+            {
+                num: 1, 
+                img: 'assets/img/piesoft/thai-flight/thai-flight.png', 
+            }, 
+            {
+                num: 2, 
+                img: 'assets/img/piesoft/thai-flight/thai-flight-about-doa.png', 
+            },
+            {
+                num: 3, 
+                img: 'assets/img/piesoft/thai-flight/thai-flight-about-airport.png', 
+            },
+            {
+                num: 4, 
+                img: 'assets/img/piesoft/thai-flight/thai-flight-facilities-symbol.png', 
+            },
+            {
+                num: 5, 
+                img: 'assets/img/piesoft/thai-flight/thai-flight-facilities.png', 
+            },
+        ], 
+        responsibilities: [
+            'Develop web application and it can work correctly.', 
+            'Testing and maintenance responsibility project application.', 
+        ], 
+        databases: [
+            'Microsoft SQL Server'
+        ], 
+        tools: [
+            'Visual Studio', 
+            'SQL Server Management Studio', 
+        ], 
+    }, 
+    {
+        pid: 16, 
+        modalid: 'smartsalesModal', 
+        title: 'Smart Sales', 
+        img: [
+            {
+                num: 1, 
+                img: 'assets/img/uobkayhian/smart-sales.png', 
+            }, 
+        ], 
+        responsibilities: [
+            'Develop web application and it can work correctly.', 
+            'Testing and maintenance responsibility project application.', 
+        ], 
+        databases: [
+            'Microsoft SQL Server'
+        ], 
+        tools: [
+            'Visual Studio', 
+            'SQL Server Management Studio', 
+        ], 
+    }, 
+    {
+        pid: 15, 
+        modalid: 'tenderModal', 
+        title: 'Tender', 
+        img: [
+            {
+                num: 1, 
+                img: 'assets/img/uobkayhian/tender.png', 
+            }, 
+        ], 
+        responsibilities: [
+            'Develop web application and it can work correctly.', 
+            'Testing and maintenance responsibility project application.', 
+        ], 
+        databases: [
+            'Microsoft SQL Server'
+        ], 
+        tools: [
+            'Visual Studio', 
+            'SQL Server Management Studio', 
+        ], 
+    }, 
+    {
+        pid: 14, 
+        modalid: 'roModal', 
+        title: 'RO', 
+        img: [
+            {
+                num: 1, 
+                img: 'assets/img/uobkayhian/ro.png', 
+            }, 
+            {
+                num: 2, 
+                img: 'assets/img/uobkayhian/ro-backoffice.png', 
+            }, 
+        ], 
+        responsibilities: [
+            'Develop web application and it can work correctly.', 
+            'Testing and maintenance responsibility project application.', 
+        ], 
+        databases: [
+            'Microsoft SQL Server'
+        ], 
+        tools: [
+            'Visual Studio', 
+            'SQL Server Management Studio', 
+        ], 
+    }, 
+    {
+        pid: 13, 
+        modalid: 'webtradingModal', 
+        title: 'Web-Trading', 
+        img: [
+            {
+                num: 1, 
+                img: 'assets/img/uobkayhian/web-trading.png', 
+            }, 
+        ], 
+        responsibilities: [
+            'Develop web application and it can work correctly.', 
+            'Testing and maintenance responsibility project application.', 
+        ], 
+        databases: [
+            'Microsoft SQL Server'
+        ], 
+        tools: [
+            'Visual Studio', 
+            'SQL Server Management Studio', 
+        ], 
+    }, 
+    {
         pid: 12, 
         modalid: 'alroModal', 
         title: 'Alro-Tracking', 
