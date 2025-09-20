@@ -646,6 +646,8 @@ ul li .descr::before {
 	/* padding: 0; */
 	position: relative;
 	overflow: hidden;
+
+  justify-items: center;
 }
 
 /* #portfolio .folio-title {
@@ -699,8 +701,9 @@ ul li .descr::before {
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 
-    max-width: 25rem;
-    border-radius: 0.5rem;
+  max-width: 25rem;
+  max-height: 15rem;
+  border-radius: 0.5rem;
 }
 
 #portfolio .folio-item a {

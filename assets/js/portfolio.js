@@ -24,7 +24,7 @@ const portfolios = [
             }, 
             {
                 pid: 4, 
-                img: 'assets/img/error/image-empty.png', 
+                img: 'assets/img/picture.png', 
                 alt: 'covid19', 
                 modal: '#covid19Modal'
             }, 
@@ -122,9 +122,15 @@ const portfolios = [
         projects: [
             {
                 pid: 18, 
-                img: 'assets/img/uobkayhian/smart-sales.png', 
-                alt: 'ips-service', 
-                modal: '#ipsModal'
+                img: 'assets/img/picture.png', 
+                alt: 'Data Hub', 
+                modal: '#datahubModal'
+            }, 
+            {
+                pid: 19, 
+                img: 'assets/img/picture.png', 
+                alt: 'data-hub', 
+                modal: '#datahubModal'
             }, 
         ] 
     }, 

@@ -1,12 +1,34 @@
 const projects = [
     {
+        pid: 19, 
+        modalid: 'datahubModal', 
+        title: 'Data Hub', 
+        img: [
+            {
+                num: 1, 
+                img: 'assets/img/picture-resized.png', 
+            }, 
+        ], 
+        responsibilities: [
+            'Develop web application and it can work correctly.', 
+            'Testing and maintenance responsibility project application.', 
+        ], 
+        databases: [
+            'Micosoft SQL Server'
+        ], 
+        tools: [
+            'DataSpider', 
+            'SQL Server Management Studio', 
+        ], 
+    },
+    {
         pid: 18, 
         modalid: 'ipsModal', 
         title: 'IPS Service', 
         img: [
             {
                 num: 1, 
-                img: 'assets/img/uobkayhian/web-trading.png', 
+                img: 'assets/img/picture-resized.png', 
             }, 
         ], 
         responsibilities: [
@@ -432,7 +454,7 @@ const projects = [
         img: [
             {
                 num: 1, 
-                img: 'assets/img/error/image-empty.png', 
+                img: 'assets/img/picture-resized.png', 
             },
         ], 
         responsibilities: [
